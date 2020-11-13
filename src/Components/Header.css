@@ -1,0 +1,110 @@
+.header_component{
+    height: 68px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0,47,52,.03);
+    padding: 0 150px;
+}
+
+@media only screen and (max-width: 600px ){
+    .header_component{
+        padding: 0 80px;
+    }
+    .header__controlSearchBar{      
+        display: none!important;
+    }
+
+}
+
+@media only screen and (max-width: 400px ){
+    .header_component{
+        padding: 0 50px;
+    }
+    .header__controlSearchBar{      
+        display: none!important;
+    }
+
+}
+
+@media only screen and (max-width: 415px ){
+    .header_component{
+        padding: 0;
+    }
+    .header__controlSearchBar{      
+        display: none!important;
+    }
+
+}
+
+.header__controlSearchBar{
+    display: flex; 
+    width: 600px;
+}
+
+.header__controlSearchBar__inputBase{
+    height: 48px;
+    border: 2px solid #002f34;
+    border-radius: 4px 0 0 4px;
+    max-width: 600px;
+    width: 100%;
+    padding: 0px 15px;
+    min-width: 200px;
+}
+
+.header__controlSearchBar__icon{
+    width: 48px;
+    height: 48px;
+    background-color: #002f34;
+    border-radius: 0 4px 4px 0;
+}
+
+.header__login__text{
+    color: #002f34;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-position: under; 
+    font-family: Arial,Helvetica,sans-serif;
+    border: none!important;
+    outline: none!important;
+}
+
+.header__login__text:hover{
+    text-decoration: none;
+}
+
+
+.sell__button{
+    cursor: pointer;
+    width: 95px;
+    height: 60px;
+}
+
+
+
+
+
+.user__image{
+    height: 50%;
+    width: 50%;
+    border: none!important;
+    border-radius: 50%;
+}
+
+.user__avatar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__avatar__pic{
+    width: 60px;
+    height: 60px;
+}
+
+.user__avatar__text{
+    margin: 15px 0px 20px 0px;
+}
